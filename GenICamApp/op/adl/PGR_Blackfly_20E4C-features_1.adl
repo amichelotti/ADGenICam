@@ -166,26 +166,12 @@
 			textix="GainSelector"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=70
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GainSelector"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1394,12 +1380,28 @@
 			textix="DeviceUserID"
 			align="horiz. right"
 		}
-    # (Textupdate)
-		"text update" {
+    # (Textentry)
+		"text entry" {
 			object {
 				x=720
 				y=195
-				width=240
+				width=60
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_DeviceUserID"
+				clr=14
+				bclr=51
+			}
+			limits {
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=785
+				y=195
+				width=120
 				height=18
 			}
 			monitor {
@@ -1522,26 +1524,12 @@
 			textix="DeviceScanType"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DeviceScanType"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1568,28 +1556,12 @@
 			textix="DeviceTemperature"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=320
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DeviceTemperature"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1647,28 +1619,12 @@
 			textix="pgrDeviceUptime"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_pgrDeviceUptime"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1979,26 +1935,12 @@
 			textix="pgrPowerSourcePresent"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=545
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_pPowSourcePresent"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2071,28 +2013,12 @@
 			textix="pgrPowerSupplyVoltage"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=595
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_pPowSupplyVoltage"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=595
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2119,28 +2045,12 @@
 			textix="pgrPowerSupplyCurrent"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=620
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_pPowSupplyCurrent"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=620
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2167,28 +2077,12 @@
 			textix="DeviceMaxThroughput"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevMaxThroughput"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3566,26 +3460,12 @@
 			textix="AcquisitionStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=720
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcquisitionStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

@@ -863,12 +863,28 @@
 			textix="DeviceUserID"
 			align="horiz. right"
 		}
-    # (Textupdate)
-		"text update" {
+    # (Textentry)
+		"text entry" {
 			object {
 				x=235
 				y=550
-				width=240
+				width=60
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_DeviceUserID"
+				clr=14
+				bclr=51
+			}
+			limits {
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=300
+				y=550
+				width=120
 				height=18
 			}
 			monitor {
@@ -895,26 +911,12 @@
 			textix="DeviceScanType"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=575
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DeviceScanType"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=575
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -972,28 +974,12 @@
 			textix="SensorWidth"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=625
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorWidth"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=625
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1020,28 +1006,12 @@
 			textix="SensorHeight"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=650
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorHeight"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=650
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1068,28 +1038,12 @@
 			textix="WidthMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=675
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_WidthMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=675
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1116,28 +1070,12 @@
 			textix="HeightMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=700
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_HeightMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=700
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1164,26 +1102,12 @@
 			textix="LastError"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=725
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LastError"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=725
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1555,28 +1479,12 @@
 			textix="ChunkStride"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkStride"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1603,28 +1511,12 @@
 			textix="ChunkSequenceSetIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuSeqSetIndex"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1651,28 +1543,12 @@
 			textix="ChunkOffsetX"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkOffsetX"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1699,28 +1575,12 @@
 			textix="ChunkOffsetY"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkOffsetY"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1747,28 +1607,12 @@
 			textix="ChunkWidth"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkWidth"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1795,28 +1639,12 @@
 			textix="ChunkHeight"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=195
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkHeight"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1843,28 +1671,12 @@
 			textix="ChunkDynamicRangeMin"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=220
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuDynRangeMin"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1891,28 +1703,12 @@
 			textix="ChunkDynamicRangeMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuDynRangeMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1939,26 +1735,12 @@
 			textix="ChunkPixelFormat"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=270
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkPixelFormat"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1985,28 +1767,12 @@
 			textix="ChunkTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkTimestamp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2033,28 +1799,12 @@
 			textix="ChunkFramecounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=320
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkFramecounter"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2081,28 +1831,12 @@
 			textix="ChunkLineStatusAll"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuLineStatusAll"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2129,28 +1863,12 @@
 			textix="ChunkVirtLineStatusAll"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuVirLinStaAll"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2177,28 +1895,12 @@
 			textix="ChunkTriggerinputcounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuTri"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2225,28 +1927,12 @@
 			textix="ChunkLineTriggerIgnoredCounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=420
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuLinTriIgnCou"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=420
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2273,28 +1959,12 @@
 			textix="ChunkFrameTriggerIgnoredCounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=445
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuFraTriIgnCou"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=445
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2321,28 +1991,12 @@
 			textix="ChunkFrameTriggerCounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuFraTriCounter"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2369,28 +2023,12 @@
 			textix="ChunkFramesPerTriggerCounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuFraPerTriCou"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2417,28 +2055,12 @@
 			textix="ChunkLineTriggerEndToEndCounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=520
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuLinTriEndToEnd"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2465,28 +2087,12 @@
 			textix="ChunkInputStatusAtLineTriggerBitsPerLine"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=545
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuInpStaAtLinTri"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2561,28 +2167,12 @@
 			textix="ChunkInputStatusAtLineTriggerValue"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=595
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuInpStaAtLinTr1"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=595
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2609,28 +2199,12 @@
 			textix="ChunkShaftEncoderCounter"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=620
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuShaEncCounter"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=620
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2657,28 +2231,12 @@
 			textix="ChunkExposureTime"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkExposureTime"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2705,28 +2263,12 @@
 			textix="ChunkPayloadCRC16"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=670
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkPayloadCRC16"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=670
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2753,28 +2295,12 @@
 			textix="ChunkGainAll"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=695
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkGainAll"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=695
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

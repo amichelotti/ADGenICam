@@ -326,12 +326,28 @@
 			textix="DeviceUserID"
 			align="horiz. right"
 		}
-    # (Textupdate)
-		"text update" {
+    # (Textentry)
+		"text entry" {
 			object {
 				x=235
 				y=195
-				width=240
+				width=60
+				height=20
+			}
+			control {
+				chan="$(P)$(R)GC_DeviceUserID"
+				clr=14
+				bclr=51
+			}
+			limits {
+			}
+		}
+    # (Textupdate)
+		"text update" {
+			object {
+				x=300
+				y=195
+				width=120
 				height=18
 			}
 			monitor {
@@ -450,28 +466,12 @@
 			textix="DeviceTemperature"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DeviceTemperature"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -560,28 +560,12 @@
 			textix="DeviceManifestXMLMajorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManXMLMajVer"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -608,28 +592,12 @@
 			textix="DeviceManifestXMLMinorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManXMLMinVer"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -656,28 +624,12 @@
 			textix="DeviceManifestXMLSubMinorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManXMLSubMinVe"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -704,28 +656,12 @@
 			textix="CameraSN"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=420
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CameraSN"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=420
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -752,28 +688,12 @@
 			textix="SensorSN"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=445
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorSN"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=445
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -800,28 +720,12 @@
 			textix="CameraFirmwareVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CamFirVersion"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -848,28 +752,12 @@
 			textix="SensorFirmwareVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SenFirVersion"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -896,26 +784,12 @@
 			textix="SensorResolution"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=520
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorResolution"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -942,26 +816,12 @@
 			textix="SensorFocalLength"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=545
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorFocalLength"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -988,26 +848,12 @@
 			textix="SensorFrameRate"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=570
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorFrameRate"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=570
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1034,28 +880,12 @@
 			textix="ReadSensorInternal"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=595
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ReaSensorInternal"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=595
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1082,28 +912,12 @@
 			textix="SensorTemperature"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=620
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorTemperature"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=620
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1130,28 +944,12 @@
 			textix="CameraCapabilities"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CamCapabilities"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1178,28 +976,12 @@
 			textix="ReadSensorHousingInternal"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=670
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ReaSenHouInternal"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=670
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1226,28 +1008,12 @@
 			textix="HousingTemperature"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=695
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_HouTemperature"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=695
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1274,28 +1040,12 @@
 			textix="CameraOptions"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=720
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CameraOptions"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1322,28 +1072,12 @@
 			textix="SensorStatus"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=745
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorStatus"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=745
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1550,28 +1284,12 @@
 			textix="SensorWidth"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorWidth"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1598,28 +1316,12 @@
 			textix="SensorHeight"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorHeight"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1692,28 +1394,12 @@
 			textix="WidthMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_WidthMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1740,28 +1426,12 @@
 			textix="HeightMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_HeightMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2218,26 +1888,12 @@
 			textix="PixelCoding"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=420
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelCoding"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=420
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2264,26 +1920,12 @@
 			textix="PixelSize"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=445
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelSize"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=445
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2310,26 +1952,12 @@
 			textix="PixelColorFilter"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=470
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelColorFilter"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2680,26 +2308,12 @@
 			textix="LineMode"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=95
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineMode"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2726,26 +2340,12 @@
 			textix="LineStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=120
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3226,28 +2826,12 @@
 			textix="CounterValue"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=405
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CounterValue"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=405
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3650,28 +3234,12 @@
 			textix="TimerPeriod"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=630
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TimerPeriod"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=630
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3698,28 +3266,12 @@
 			textix="TimerFrequency"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=655
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TimerFrequency"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=655
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

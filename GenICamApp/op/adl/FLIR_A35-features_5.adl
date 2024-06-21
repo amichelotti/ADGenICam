@@ -1572,28 +1572,12 @@
 			textix="PLC_rsl0_InputFrequency"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PLC_rInpFrequency"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1620,28 +1604,12 @@
 			textix="PLC_rsl0_OutputFrequency"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PLC_rOutFrequency"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1668,26 +1636,12 @@
 			textix="PLC_rsl0_SampleSize"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PLC_rSampleSize"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2270,26 +2224,12 @@
 			textix="PLC_ts_trig_FIFOFull"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=665
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PLC_tFIFOFull"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=665
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2316,26 +2256,12 @@
 			textix="PLC_ts_trig_FIFOEmpty"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=690
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PLC_tFIFOEmpty"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=690
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

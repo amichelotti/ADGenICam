@@ -166,28 +166,12 @@
 			textix="EventExposureEnd"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventExposureEnd"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -214,28 +198,12 @@
 			textix="EventExposureEndTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveExpEndTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -262,28 +230,12 @@
 			textix="EventExposureEndFrameID"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveExpEndFrameID"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -348,28 +300,12 @@
 			textix="EventTest"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=180
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventTest"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=180
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -396,28 +332,12 @@
 			textix="EventTestTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=205
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveTestTimestamp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=205
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -444,28 +364,12 @@
 			textix="EventTestFrameID"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=230
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventTestFrameID"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=230
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

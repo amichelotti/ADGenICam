@@ -558,28 +558,12 @@
 			textix="AcquisitionResultingFrameRate"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcqResFrameRate"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1279,28 +1263,12 @@
 			textix="BlackLevelRaw"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_BlackLevelRaw"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1881,28 +1849,12 @@
 			textix="SensorWidth"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorWidth"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1929,28 +1881,12 @@
 			textix="SensorHeight"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorHeight"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1977,28 +1913,12 @@
 			textix="WidthMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_WidthMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2025,28 +1945,12 @@
 			textix="HeightMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_HeightMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2311,26 +2215,12 @@
 			textix="PixelSize"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelSize"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2357,26 +2247,12 @@
 			textix="PixelColorFilter"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=320
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelColorFilter"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2403,28 +2279,12 @@
 			textix="PixelDynamicRangeMin"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixDynRangeMin"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2451,28 +2311,12 @@
 			textix="PixelDynamicRangeMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixDynRangeMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

@@ -166,28 +166,12 @@
 			textix="VirtualLine3RisingEdgeEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_VirLinRisEdgEveS1"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -214,28 +198,12 @@
 			textix="VirtualLine3RisingEdgeEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_VirLinRisEdgEveT1"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -300,28 +268,12 @@
 			textix="VirtualLine4RisingEdgeEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=155
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_VirLinRisEdgEveS2"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=155
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -348,28 +300,12 @@
 			textix="VirtualLine4RisingEdgeEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=180
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_VirLinRisEdgEveT2"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=180
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -434,28 +370,12 @@
 			textix="FrameStartWaitEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=240
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FraStaWaiEveStrCh"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=240
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -482,28 +402,12 @@
 			textix="FrameStartWaitEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=265
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FraStaWaiEveTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=265
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -568,28 +472,12 @@
 			textix="AcquisitionStartWaitEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=325
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcqStaWaiEveStrCh"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=325
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -616,28 +504,12 @@
 			textix="AcquisitionStartWaitEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=350
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcqStaWaiEveTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=350
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -940,28 +812,12 @@
 			textix="PayloadSize"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PayloadSize"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1228,28 +1084,12 @@
 			textix="GevSCBWA"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=220
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSCBWA"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1276,28 +1116,12 @@
 			textix="GevSCDMT"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSCDMT"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1324,28 +1148,12 @@
 			textix="GevSCDCT"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSCDCT"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1372,28 +1180,12 @@
 			textix="GevSCFJM"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSCFJM"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1420,28 +1212,12 @@
 			textix="GevVersionMajor"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=320
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevVersionMajor"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1468,28 +1244,12 @@
 			textix="GevVersionMinor"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevVersionMinor"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1516,26 +1276,12 @@
 			textix="GevDeviceModeIsBigEndian"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=370
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevDevModIsBigEnd"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1562,28 +1308,12 @@
 			textix="GevDeviceModeCharacterSet"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevDevModChaSet"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1656,28 +1386,12 @@
 			textix="GevMACAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=445
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevMACAddress"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=445
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1750,26 +1464,12 @@
 			textix="GevSupportedIPConfigurationLLA"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=495
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIPConLLA"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1796,26 +1496,12 @@
 			textix="GevSupportedIPConfigurationDHCP"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=520
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIPConDHCP"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1842,26 +1528,12 @@
 			textix="GevSupportedIPConfigurationPersistentIP"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=545
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIPConPerIP"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1936,28 +1608,12 @@
 			textix="GevCurrentIPAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=595
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurIPAddress"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=595
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1984,28 +1640,12 @@
 			textix="GevCurrentSubnetMask"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=620
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurSubnetMask"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=620
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2032,28 +1672,12 @@
 			textix="GevCurrentDefaultGateway"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurDefGateway"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2224,28 +1848,12 @@
 			textix="GevLinkSpeed"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=745
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevLinkSpeed"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=745
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2272,26 +1880,12 @@
 			textix="GevLinkMaster"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=770
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevLinkMaster"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=770
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2318,26 +1912,12 @@
 			textix="GevLinkFullDuplex"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=795
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevLinkFullDuplex"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=795
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2364,26 +1944,12 @@
 			textix="GevLinkCrossover"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=820
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevLinkCrossover"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=820
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2512,28 +2078,12 @@
 			textix="GevNumberOfInterfaces"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevNumOfInt"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2560,28 +2110,12 @@
 			textix="GevMessageChannelCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevMesChaCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2608,28 +2142,12 @@
 			textix="GevStreamChannelCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevStrChaCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2656,26 +2174,12 @@
 			textix="GevSupportedOptionalLegacy16BitBlockID"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=170
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOptLegBitBl"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2702,26 +2206,12 @@
 			textix="GevSupportedIEEE1588"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=195
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIEEE1588"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2748,26 +2238,12 @@
 			textix="GevSupportedOptionalCommandsEVENTDATA"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=220
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOptComEVENT"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2794,26 +2270,12 @@
 			textix="GevSupportedOptionalCommandsEVENT"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=245
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOptComEVEN0"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2840,26 +2302,12 @@
 			textix="GevSupportedOptionalCommandsPACKETRESEND"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=270
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOptComPACKE"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2886,26 +2334,12 @@
 			textix="GevSupportedOptionalCommandsWRITEMEM"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOptComWRITE"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2932,26 +2366,12 @@
 			textix="GevSupportedOptionalCommandsConcatenation"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=320
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOptComCon"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3026,28 +2446,12 @@
 			textix="GevTimestampTickFrequency"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevTimTicFre"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3167,28 +2571,12 @@
 			textix="GevTimestampValue"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevTimestampValue"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3215,26 +2603,12 @@
 			textix="GevCCP"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=495
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCCP"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3668,26 +3042,12 @@
 			textix="GevIEEE1588Status"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=745
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevIEEE1588Status"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=745
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3745,26 +3105,12 @@
 			textix="GevIEEE1588StatusLatched"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=795
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevIEEE15StaLat"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=795
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3791,28 +3137,12 @@
 			textix="GevIEEE1588OffsetFromMaster"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=820
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevIEEE15OffFroMa"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=820
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3839,28 +3169,12 @@
 			textix="GevIEEE1588ClockIdLow"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=845
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevIEEE15CloIdLow"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=845
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

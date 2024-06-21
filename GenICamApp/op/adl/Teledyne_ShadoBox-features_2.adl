@@ -260,28 +260,12 @@
 			textix="GevLinkSpeed"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevLinkSpeed"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -498,28 +482,12 @@
 			textix="PayloadSize"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PayloadSize"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -546,28 +514,12 @@
 			textix="GevMACAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevMACAddress"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -594,26 +546,12 @@
 			textix="GevIPConfigurationStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevIPConStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -686,28 +624,12 @@
 			textix="GevCurrentIPAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurIPAddress"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -734,28 +656,12 @@
 			textix="GevCurrentSubnetMask"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurSubnetMask"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -782,28 +688,12 @@
 			textix="GevCurrentDefaultGateway"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurDefGateway"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -974,26 +864,12 @@
 			textix="GevCurrentIPConfigurationLLA"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=495
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevCurIPConLLA"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1112,28 +988,12 @@
 			textix="GevPrimaryApplicationSocket"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=570
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevPriAppSocket"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=570
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1160,28 +1020,12 @@
 			textix="GevPrimaryApplicationIPAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=595
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevPriAppIPAdd"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=595
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1348,28 +1192,12 @@
 			textix="GevNumberOfInterfaces"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=695
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevNumOfInt"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=695
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1396,28 +1224,12 @@
 			textix="GevMessageChannelCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=720
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevMesChaCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1444,28 +1256,12 @@
 			textix="GevStreamChannelCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=745
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevStrChaCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=745
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1538,26 +1334,12 @@
 			textix="GevSupportedOption"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=795
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupOption"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=795
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1584,26 +1366,12 @@
 			textix="GevSupportedIPConfigurationLLA"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=820
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIPConLLA"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=820
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1630,26 +1398,12 @@
 			textix="GevSupportedIPConfigurationDHCP"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=845
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIPConDHCP"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=845
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1714,26 +1468,12 @@
 			textix="GevSupportedIPConfigurationPersistentIP"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=70
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSupIPConPerIP"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2140,28 +1880,12 @@
 			textix="GevMCSP"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevMCSP"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2188,28 +1912,12 @@
 			textix="GevSCPInterfaceIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=320
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSCPIntIndex"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2332,28 +2040,12 @@
 			textix="GevSCSP"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevSCSP"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2444,28 +2136,12 @@
 			textix="GevVersionMajor"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevVersionMajor"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2492,28 +2168,12 @@
 			textix="GevVersionMinor"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevVersionMinor"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2588,28 +2248,12 @@
 			textix="DeviceManifestXMLMajorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=545
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManXMLMajVer"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2636,28 +2280,12 @@
 			textix="DeviceManifestXMLMinorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=570
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManXMLMinVer"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=570
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2684,28 +2312,12 @@
 			textix="DeviceManifestXMLSubMinorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=595
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManXMLSubMinVe"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=595
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2732,28 +2344,12 @@
 			textix="DeviceManifestSchemaMajorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=620
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManSchMajVer"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=620
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2780,28 +2376,12 @@
 			textix="DeviceManifestSchemaMinorVersion"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DevManSchMinVer"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2892,26 +2472,12 @@
 			textix="GevDeviceModeIsBigEndian"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=720
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevDevModIsBigEnd"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2938,26 +2504,12 @@
 			textix="GevDeviceModeCharacterSet"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=745
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GevDevModChaSet"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=745
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3526,26 +3078,12 @@
 			textix="FileOperationStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=305
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FilOpeStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=305
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3572,28 +3110,12 @@
 			textix="FileOperationResult"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=330
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FilOpeResult"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=330
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3667,26 +3189,12 @@
 			textix="ftpFileAccessSupported"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=405
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_fFilAccSupported"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=405
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

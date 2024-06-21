@@ -166,28 +166,12 @@
 			textix="EventAcquisitionStart"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveAcqStart"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -214,28 +198,12 @@
 			textix="EventAcquisitionEnd"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveAcquisitionEnd"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -262,28 +230,12 @@
 			textix="EventFrameTrigger"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventFrameTrigger"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -310,28 +262,12 @@
 			textix="EventExposureEnd"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventExposureEnd"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -358,28 +294,12 @@
 			textix="EventAcquisitionRecordTrigger"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveAcqRecTrigger"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -406,28 +326,12 @@
 			textix="EventLine1RisingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=195
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinRisingEdge"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -454,28 +358,12 @@
 			textix="EventLine1FallingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=220
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinFallingEdge"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -502,28 +390,12 @@
 			textix="EventLine2RisingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinRisingEdg0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -550,28 +422,12 @@
 			textix="EventLine2FallingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinFallingEdg0"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -598,28 +454,12 @@
 			textix="EventLine3RisingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinRisingEdg1"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -646,28 +486,12 @@
 			textix="EventLine3FallingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=320
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinFallingEdg1"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -694,28 +518,12 @@
 			textix="EventLine4RisingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinRisingEdg2"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -742,28 +550,12 @@
 			textix="EventLine4FallingEdge"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveLinFallingEdg2"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -790,28 +582,12 @@
 			textix="EventFrameTriggerReady"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveFraTriReady"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -838,28 +614,12 @@
 			textix="EventPtpSyncLost"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=420
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventPtpSyncLost"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=420
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -886,28 +646,12 @@
 			textix="EventPtpSyncLocked"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=445
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EvePtpSyncLocked"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=445
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -934,28 +678,12 @@
 			textix="EventOverflow"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventOverflow"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -982,28 +710,12 @@
 			textix="EventError"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventError"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1762,28 +1474,12 @@
 			textix="TimeStampValueLo"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=195
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TimeStampValueLo"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1810,28 +1506,12 @@
 			textix="TimeStampValueHi"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=220
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TimeStampValueHi"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

@@ -304,28 +304,12 @@
 			textix="ChunkImage"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkImage"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -352,28 +336,12 @@
 			textix="ChunkCRC"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkCRC"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -400,28 +368,12 @@
 			textix="ChunkFrameID"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=195
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkFrameID"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -448,28 +400,12 @@
 			textix="ChunkOffsetX"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=220
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkOffsetX"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -496,28 +432,12 @@
 			textix="ChunkOffsetY"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkOffsetY"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -544,28 +464,12 @@
 			textix="ChunkWidth"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkWidth"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -592,28 +496,12 @@
 			textix="ChunkHeight"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=295
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkHeight"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -640,26 +528,12 @@
 			textix="ChunkPixelFormat"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=320
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkPixelFormat"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -686,28 +560,12 @@
 			textix="ChunkExposureTime"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=345
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkExposureTime"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -780,28 +638,12 @@
 			textix="ChunkGain"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=395
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkGain"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=395
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -874,28 +716,12 @@
 			textix="ChunkBlackLevel"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=445
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkBlackLevel"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=445
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -922,28 +748,12 @@
 			textix="ChunkTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChunkTimestamp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -970,28 +780,12 @@
 			textix="ChunkSequencerSetActive"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=495
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuSeqSetActive"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=495
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1018,28 +812,12 @@
 			textix="ChunkSerialDataLength"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=520
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuSerDataLength"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1098,26 +876,12 @@
 			textix="ChunkSerialReceiveOverflow"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=570
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ChuSerRecOverflow"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=570
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1553,28 +1317,12 @@
 			textix="EventExposureEnd"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=70
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventExposureEnd"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1601,28 +1349,12 @@
 			textix="EventExposureEndTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveExpEndTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1649,28 +1381,12 @@
 			textix="EventExposureEndFrameID"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=120
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveExpEndFrameID"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1735,28 +1451,12 @@
 			textix="EventError"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=180
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventError"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=180
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1783,28 +1483,12 @@
 			textix="EventErrorTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=205
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveErrorTimestamp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=205
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1831,28 +1515,12 @@
 			textix="EventErrorFrameID"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=230
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventErrorFrameID"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=230
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1879,28 +1547,12 @@
 			textix="EventErrorCode"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=255
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventErrorCode"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=255
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1965,28 +1617,12 @@
 			textix="EventSerialPortReceive"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=315
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveSerPortReceive"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=315
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2013,28 +1649,12 @@
 			textix="EventSerialPortReceiveTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=340
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveSerPorRecTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=340
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2093,28 +1713,12 @@
 			textix="EventSerialDataLength"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=390
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveSerDataLength"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=390
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2141,26 +1745,12 @@
 			textix="EventSerialReceiveOverflow"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=415
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveSerRecOverflow"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=415
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2225,28 +1815,12 @@
 			textix="EventTest"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=475
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EventTest"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=475
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2273,28 +1847,12 @@
 			textix="EventTestTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=500
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_EveTestTimestamp"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=500
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2545,28 +2103,12 @@
 			textix="CounterValue"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CounterValue"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2825,26 +2367,12 @@
 			textix="CounterStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=320
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CounterStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=320
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3036,28 +2564,12 @@
 			textix="GuiXmlManifestAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=455
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_GuiXmlManAddress"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=455
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

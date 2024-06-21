@@ -1674,28 +1674,12 @@
 			textix="IrisVideoLevel"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=205
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_IrisVideoLevel"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=205
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2208,28 +2192,12 @@
 			textix="VsubValue"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=545
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_VsubValue"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2852,28 +2820,12 @@
 			textix="LUTBitDepthIn"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=280
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LUTBitDepthIn"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=280
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2900,28 +2852,12 @@
 			textix="LUTBitDepthOut"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=305
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LUTBitDepthOut"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=305
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2948,28 +2884,12 @@
 			textix="LUTAddress"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=330
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LUTAddress"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=330
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2996,28 +2916,12 @@
 			textix="LUTSizeBytes"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=355
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LUTSizeBytes"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=355
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3082,28 +2986,12 @@
 			textix="SyncInLevels"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=415
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SyncInLevels"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=415
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

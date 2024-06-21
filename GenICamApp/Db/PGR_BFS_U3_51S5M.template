@@ -155,13 +155,6 @@ record(ai, "$(P)$(R)GC_AcqResFrameRate_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_AcqResFrameRate") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_AcquisitionResultingFrameRate")
-  field(PREC, "3")
-  field(DISA, "0")
-}
-
 record(bi, "$(P)$(R)GC_AcqFraRateEnable_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_AcquisitionFrameRateEnable")
@@ -515,12 +508,6 @@ record(ai, "$(P)$(R)GC_BlackLevelRaw_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_BlackLevelRaw") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_BlackLevelRaw")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_BlackLevel_RBV") {
   field(DTYP, "asynFloat64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_BlackLevel")
@@ -702,22 +689,10 @@ record(ai, "$(P)$(R)GC_SensorWidth_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_SensorWidth") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_SensorWidth")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_SensorHeight_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_SensorHeight")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_SensorHeight") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_SensorHeight")
   field(DISA, "0")
 }
 
@@ -728,22 +703,10 @@ record(ai, "$(P)$(R)GC_WidthMax_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_WidthMax") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_WidthMax")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_HeightMax_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_HeightMax")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_HeightMax") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_HeightMax")
   field(DISA, "0")
 }
 
@@ -916,45 +879,6 @@ record(mbbi, "$(P)$(R)GC_PixelSize_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_PixelSize") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_PixelSize")
-  field(DOL,  "0")
-  field(ZRST, "Bpp1")
-  field(ZRVL, "0")
-  field(ONST, "Bpp2")
-  field(ONVL, "1")
-  field(TWST, "Bpp4")
-  field(TWVL, "2")
-  field(THST, "Bpp8")
-  field(THVL, "3")
-  field(FRST, "Bpp10")
-  field(FRVL, "4")
-  field(FVST, "Bpp12")
-  field(FVVL, "5")
-  field(SXST, "Bpp14")
-  field(SXVL, "6")
-  field(SVST, "Bpp16")
-  field(SVVL, "7")
-  field(EIST, "Bpp20")
-  field(EIVL, "8")
-  field(NIST, "Bpp24")
-  field(NIVL, "9")
-  field(TEST, "Bpp30")
-  field(TEVL, "10")
-  field(ELST, "Bpp32")
-  field(ELVL, "11")
-  field(TVST, "Bpp36")
-  field(TVVL, "12")
-  field(TTST, "Bpp48")
-  field(TTVL, "13")
-  field(FTST, "Bpp64")
-  field(FTVL, "14")
-  field(FFST, "Bpp96")
-  field(FFVL, "15")
-  field(DISA, "0")
-}
-
 record(mbbi, "$(P)$(R)GC_PixelColorFilter_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_PixelColorFilter")
@@ -972,23 +896,6 @@ record(mbbi, "$(P)$(R)GC_PixelColorFilter_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_PixelColorFilter") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_PixelColorFilter")
-  field(DOL,  "0")
-  field(ZRST, "None")
-  field(ZRVL, "0")
-  field(ONST, "BayerRG")
-  field(ONVL, "1")
-  field(TWST, "BayerGB")
-  field(TWVL, "2")
-  field(THST, "BayerGR")
-  field(THVL, "3")
-  field(FRST, "BayerBG")
-  field(FRVL, "4")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_PixDynRangeMin_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_PixelDynamicRangeMin")
@@ -996,22 +903,10 @@ record(ai, "$(P)$(R)GC_PixDynRangeMin_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_PixDynRangeMin") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_PixelDynamicRangeMin")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_PixDynRangeMax_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_PixelDynamicRangeMax")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_PixDynRangeMax") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_PixelDynamicRangeMax")
   field(DISA, "0")
 }
 
@@ -1333,15 +1228,6 @@ record(mbbi, "$(P)$(R)GC_DeviceScanType_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_DeviceScanType") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_DeviceScanType")
-  field(DOL,  "0")
-  field(ZRST, "Areascan")
-  field(ZRVL, "0")
-  field(DISA, "0")
-}
-
 record(stringin, "$(P)$(R)GC_DeviceVendorName_RBV") {
   field(DTYP, "asynOctetRead")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_S_DeviceVendorName")
@@ -1405,6 +1291,12 @@ record(stringin, "$(P)$(R)GC_DeviceUserID_RBV") {
   field(DISA, "0")
 }
 
+record(stringout, "$(P)$(R)GC_DeviceUserID") {
+  field(DTYP, "asynOctetWrite")
+  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_S_DeviceUserID")
+  field(DISA, "0")
+}
+
 record(mbbi, "$(P)$(R)GC_DeviceTLType_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_DeviceTLType")
@@ -1424,35 +1316,10 @@ record(mbbi, "$(P)$(R)GC_DeviceTLType_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_DeviceTLType") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_DeviceTLType")
-  field(DOL,  "0")
-  field(ZRST, "GigEVision")
-  field(ZRVL, "0")
-  field(ONST, "CameraLink")
-  field(ONVL, "1")
-  field(TWST, "CameraLinkHS")
-  field(TWVL, "2")
-  field(THST, "CoaXPress")
-  field(THVL, "3")
-  field(FRST, "USB3Vision")
-  field(FRVL, "4")
-  field(FVST, "Custom")
-  field(FVVL, "5")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_DevGenCPVerMajor_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceGenCPVersionMajor")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_DevGenCPVerMajor") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceGenCPVersionMajor")
   field(DISA, "0")
 }
 
@@ -1463,12 +1330,6 @@ record(ai, "$(P)$(R)GC_DevGenCPVerMinor_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_DevGenCPVerMinor") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceGenCPVersionMinor")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_DevMaxThroughput_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceMaxThroughput")
@@ -1476,22 +1337,10 @@ record(ai, "$(P)$(R)GC_DevMaxThroughput_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_DevMaxThroughput") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceMaxThroughput")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_DeviceLinkSpeed_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceLinkSpeed")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_DeviceLinkSpeed") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceLinkSpeed")
   field(DISA, "0")
 }
 
@@ -1527,12 +1376,6 @@ record(ai, "$(P)$(R)GC_DevLinCurThr_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceLinkCurrentThroughput")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_DevLinCurThr") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceLinkCurrentThroughput")
   field(DISA, "0")
 }
 
@@ -1576,23 +1419,10 @@ record(ai, "$(P)$(R)GC_DeviceTemperature_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_DeviceTemperature") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_DeviceTemperature")
-  field(PREC, "3")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_Timestamp_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_Timestamp")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_Timestamp") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_Timestamp")
   field(DISA, "0")
 }
 
@@ -1606,12 +1436,6 @@ record(ai, "$(P)$(R)GC_TimIncrement_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TimestampIncrement")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_TimIncrement") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TimestampIncrement")
   field(DISA, "0")
 }
 
@@ -1641,25 +1465,11 @@ record(ai, "$(P)$(R)GC_PowSupplyVoltage_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_PowSupplyVoltage") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_PowerSupplyVoltage")
-  field(PREC, "3")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_PowSupplyCurrent_RBV") {
   field(DTYP, "asynFloat64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_PowerSupplyCurrent")
   field(PREC, "3")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_PowSupplyCurrent") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_PowerSupplyCurrent")
-  field(PREC, "3")
   field(DISA, "0")
 }
 
@@ -1670,12 +1480,6 @@ record(ai, "$(P)$(R)GC_DeviceUptime_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_DeviceUptime") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_DeviceUptime")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_LinkUptime_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LinkUptime")
@@ -1683,22 +1487,10 @@ record(ai, "$(P)$(R)GC_LinkUptime_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_LinkUptime") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LinkUptime")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_EnumerationCount_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EnumerationCount")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_EnumerationCount") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EnumerationCount")
   field(DISA, "0")
 }
 
@@ -1715,22 +1507,10 @@ record(ai, "$(P)$(R)GC_MaxDevResetTime_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_MaxDevResetTime") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_MaxDeviceResetTime")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_PayloadSize_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_PayloadSize")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_PayloadSize") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_PayloadSize")
   field(DISA, "0")
 }
 
@@ -1754,12 +1534,6 @@ record(ai, "$(P)$(R)GC_LinkErrorCount_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_LinkErrorCount") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LinkErrorCount")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_LinkRecoveryCount_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LinkRecoveryCount")
@@ -1767,22 +1541,10 @@ record(ai, "$(P)$(R)GC_LinkRecoveryCount_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_LinkRecoveryCount") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LinkRecoveryCount")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_U3VMaxDevResTime_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VMaxDeviceResponseTime")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_U3VMaxDevResTime") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VMaxDeviceResponseTime")
   field(DISA, "0")
 }
 
@@ -1819,22 +1581,10 @@ record(ai, "$(P)$(R)GC_U3VVersionMajor_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_U3VVersionMajor") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VVersionMajor")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_U3VVersionMinor_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VVersionMinor")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_U3VVersionMinor") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VVersionMinor")
   field(DISA, "0")
 }
 
@@ -1845,24 +1595,10 @@ record(ai, "$(P)$(R)GC_U3VCPCapability_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_U3VCPCapability") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VCPCapability")
-  field(DISA, "0")
-}
-
 record(bi, "$(P)$(R)GC_U3VCPSIRMAva_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_U3VCPSIRMAvailable")
   field(SCAN, "I/O Intr")
-  field(ZNAM, "No")
-  field(ONAM, "Yes")
-  field(DISA, "0")
-}
-
-record(bo, "$(P)$(R)GC_U3VCPSIRMAva") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_U3VCPSIRMAvailable")
   field(ZNAM, "No")
   field(ONAM, "Yes")
   field(DISA, "0")
@@ -1877,26 +1613,10 @@ record(bi, "$(P)$(R)GC_U3VCPEIRMAva_RBV") {
   field(DISA, "0")
 }
 
-record(bo, "$(P)$(R)GC_U3VCPEIRMAva") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_U3VCPEIRMAvailable")
-  field(ZNAM, "No")
-  field(ONAM, "Yes")
-  field(DISA, "0")
-}
-
 record(bi, "$(P)$(R)GC_U3VCPIIDC2Ava_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_U3VCPIIDC2Available")
   field(SCAN, "I/O Intr")
-  field(ZNAM, "No")
-  field(ONAM, "Yes")
-  field(DISA, "0")
-}
-
-record(bo, "$(P)$(R)GC_U3VCPIIDC2Ava") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_U3VCPIIDC2Available")
   field(ZNAM, "No")
   field(ONAM, "Yes")
   field(DISA, "0")
@@ -1922,22 +1642,10 @@ record(ai, "$(P)$(R)GC_U3VMaxAckTraLen_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_U3VMaxAckTraLen") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VMaxAcknowledgeTransferLength")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_U3VNumOfStrCha_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VNumberOfStreamChannels")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_U3VNumOfStrCha") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_U3VNumberOfStreamChannels")
   field(DISA, "0")
 }
 
@@ -1953,21 +1661,6 @@ record(mbbi, "$(P)$(R)GC_U3VCurrentSpeed_RBV") {
   field(THST, "SuperSpeed")
   field(THVL, "3")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(mbbo, "$(P)$(R)GC_U3VCurrentSpeed") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_U3VCurrentSpeed")
-  field(DOL,  "0")
-  field(ZRST, "LowSpeed")
-  field(ZRVL, "0")
-  field(ONST, "FullSpeed")
-  field(ONVL, "1")
-  field(TWST, "HighSpeed")
-  field(TWVL, "2")
-  field(THST, "SuperSpeed")
-  field(THVL, "3")
   field(DISA, "0")
 }
 
@@ -2023,17 +1716,6 @@ record(mbbi, "$(P)$(R)GC_SeqConValid_RBV") {
   field(ONST, "Yes")
   field(ONVL, "1")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(mbbo, "$(P)$(R)GC_SeqConValid") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_SequencerConfigurationValid")
-  field(DOL,  "0")
-  field(ZRST, "No")
-  field(ZRVL, "0")
-  field(ONST, "Yes")
-  field(ONVL, "1")
   field(DISA, "0")
 }
 
@@ -2096,12 +1778,6 @@ record(ai, "$(P)$(R)GC_SeqSetActive_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_SeqSetActive") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_SequencerSetActive")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_SeqSetSelector_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_SequencerSetSelector")
@@ -2123,17 +1799,6 @@ record(mbbi, "$(P)$(R)GC_SequencerSetValid_RBV") {
   field(ONST, "Yes")
   field(ONVL, "1")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(mbbo, "$(P)$(R)GC_SequencerSetValid") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_SequencerSetValid")
-  field(DOL,  "0")
-  field(ZRST, "No")
-  field(ZRVL, "0")
-  field(ONST, "Yes")
-  field(ONVL, "1")
   field(DISA, "0")
 }
 
@@ -3186,14 +2851,6 @@ record(bi, "$(P)$(R)GC_UseSetFeaEnable_RBV") {
   field(DISA, "0")
 }
 
-record(bo, "$(P)$(R)GC_UseSetFeaEnable") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_UserSetFeatureEnable")
-  field(ZNAM, "No")
-  field(ONAM, "Yes")
-  field(DISA, "0")
-}
-
 record(bi, "$(P)$(R)GC_ChunkModeActive_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_ChunkModeActive")
@@ -3301,22 +2958,10 @@ record(ai, "$(P)$(R)GC_ChunkImage_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkImage") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkImage")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChunkCRC_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkCRC")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_ChunkCRC") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkCRC")
   field(DISA, "0")
 }
 
@@ -3327,22 +2972,10 @@ record(ai, "$(P)$(R)GC_ChunkFrameID_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkFrameID") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkFrameID")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChunkOffsetX_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkOffsetX")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_ChunkOffsetX") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkOffsetX")
   field(DISA, "0")
 }
 
@@ -3353,12 +2986,6 @@ record(ai, "$(P)$(R)GC_ChunkOffsetY_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkOffsetY") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkOffsetY")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChunkWidth_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkWidth")
@@ -3366,22 +2993,10 @@ record(ai, "$(P)$(R)GC_ChunkWidth_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkWidth") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkWidth")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChunkHeight_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkHeight")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_ChunkHeight") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkHeight")
   field(DISA, "0")
 }
 
@@ -3412,45 +3027,11 @@ record(mbbi, "$(P)$(R)GC_ChunkPixelFormat_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_ChunkPixelFormat") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_ChunkPixelFormat")
-  field(DOL,  "0x01080001")
-  field(ZRST, "Mono8")
-  field(ZRVL, "0x01080001")
-  field(ONST, "Mono12Packed")
-  field(ONVL, "0x010C0006")
-  field(TWST, "Mono16")
-  field(TWVL, "0x01100007")
-  field(THST, "RGB8Packed")
-  field(THVL, "0x02180014")
-  field(FRST, "YUV422Packed")
-  field(FRVL, "0x0210001F")
-  field(FVST, "BayerGR8")
-  field(FVVL, "0x01080008")
-  field(SXST, "BayerRG8")
-  field(SXVL, "0x01080009")
-  field(SVST, "BayerGB8")
-  field(SVVL, "0x0108000A")
-  field(EIST, "BayerBG8")
-  field(EIVL, "0x0108000B")
-  field(NIST, "YCbCr601_422_8_C")
-  field(NIVL, "0x02100044")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChunkExposureTime_RBV") {
   field(DTYP, "asynFloat64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_ChunkExposureTime")
   field(PREC, "3")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_ChunkExposureTime") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_ChunkExposureTime")
-  field(PREC, "3")
   field(DISA, "0")
 }
 
@@ -3492,13 +3073,6 @@ record(ai, "$(P)$(R)GC_ChunkGain_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkGain") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_ChunkGain")
-  field(PREC, "3")
-  field(DISA, "0")
-}
-
 record(mbbi, "$(P)$(R)GC_ChuBlaLevSelector_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_ChunkBlackLevelSelector")
@@ -3525,13 +3099,6 @@ record(ai, "$(P)$(R)GC_ChunkBlackLevel_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkBlackLevel") {
-  field(DTYP, "asynFloat64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_D_ChunkBlackLevel")
-  field(PREC, "3")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChunkTimestamp_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkTimestamp")
@@ -3539,22 +3106,10 @@ record(ai, "$(P)$(R)GC_ChunkTimestamp_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_ChunkTimestamp") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkTimestamp")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_ChuSeqSetActive_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkSequencerSetActive")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_ChuSeqSetActive") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_ChunkSequencerSetActive")
   field(DISA, "0")
 }
 
@@ -3670,22 +3225,10 @@ record(ai, "$(P)$(R)GC_EventExposureEnd_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_EventExposureEnd") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventExposureEnd")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_EveExpEndTim_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventExposureEndTimestamp")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_EveExpEndTim") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventExposureEndTimestamp")
   field(DISA, "0")
 }
 
@@ -3696,22 +3239,10 @@ record(ai, "$(P)$(R)GC_EveExpEndFrameID_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_EveExpEndFrameID") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventExposureEndFrameID")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_EventError_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventError")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_EventError") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventError")
   field(DISA, "0")
 }
 
@@ -3722,22 +3253,10 @@ record(ai, "$(P)$(R)GC_EveErrorTimestamp_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_EveErrorTimestamp") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventErrorTimestamp")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_EventErrorFrameID_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventErrorFrameID")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_EventErrorFrameID") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventErrorFrameID")
   field(DISA, "0")
 }
 
@@ -3748,12 +3267,6 @@ record(ai, "$(P)$(R)GC_EventErrorCode_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_EventErrorCode") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventErrorCode")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_EventTest_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventTest")
@@ -3761,22 +3274,10 @@ record(ai, "$(P)$(R)GC_EventTest_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_EventTest") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventTest")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_EveTestTimestamp_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventTestTimestamp")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_EveTestTimestamp") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_EventTestTimestamp")
   field(DISA, "0")
 }
 
@@ -3931,12 +3432,6 @@ record(ai, "$(P)$(R)GC_CounterValue_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_CounterValue")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_CounterValue") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_CounterValue")
   field(DISA, "0")
 }
 
@@ -4194,23 +3689,6 @@ record(mbbi, "$(P)$(R)GC_CounterStatus_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_CounterStatus") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_CounterStatus")
-  field(DOL,  "0")
-  field(ZRST, "CounterIdle")
-  field(ZRVL, "0")
-  field(ONST, "CounterTriggerWa")
-  field(ONVL, "1")
-  field(TWST, "CounterActive")
-  field(TWVL, "2")
-  field(THST, "CounterCompleted")
-  field(THVL, "3")
-  field(FRST, "CounterOverflow")
-  field(FRVL, "4")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_CounterDelay_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_CounterDelay")
@@ -4260,12 +3738,6 @@ record(ai, "$(P)$(R)GC_GuiXmlManAddress_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_GuiXmlManifestAddress")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_GuiXmlManAddress") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_GuiXmlManifestAddress")
   field(DISA, "0")
 }
 
@@ -4599,24 +4071,10 @@ record(bi, "$(P)$(R)GC_LineStatus_RBV") {
   field(DISA, "0")
 }
 
-record(bo, "$(P)$(R)GC_LineStatus") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_B_LineStatus")
-  field(ZNAM, "No")
-  field(ONAM, "Yes")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_LineStatusAll_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LineStatusAll")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_LineStatusAll") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_LineStatusAll")
   field(DISA, "0")
 }
 
@@ -4752,27 +4210,6 @@ record(mbbi, "$(P)$(R)GC_LineFormat_RBV") {
   field(DISA, "0")
 }
 
-record(mbbo, "$(P)$(R)GC_LineFormat") {
-  field(DTYP, "asynInt32")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_LineFormat")
-  field(DOL,  "0")
-  field(ZRST, "NoConnect")
-  field(ZRVL, "0")
-  field(ONST, "TriState")
-  field(ONVL, "1")
-  field(TWST, "TTL")
-  field(TWVL, "2")
-  field(THST, "LVDS")
-  field(THVL, "3")
-  field(FRST, "RS422")
-  field(FRVL, "4")
-  field(FVST, "OptoCoupled")
-  field(FVVL, "5")
-  field(SXST, "OpenDrain")
-  field(SXVL, "6")
-  field(DISA, "0")
-}
-
 record(mbbi, "$(P)$(R)GC_UseOutputSelector_RBV") {
   field(DTYP, "asynInt32")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_E_UserOutputSelector")
@@ -4901,12 +4338,6 @@ record(ai, "$(P)$(R)GC_TraQueMaxBloCount_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_TraQueMaxBloCount") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TransferQueueMaxBlockCount")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_TraQueCurBloCount_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TransferQueueCurrentBlockCount")
@@ -4914,22 +4345,10 @@ record(ai, "$(P)$(R)GC_TraQueCurBloCount_RBV") {
   field(DISA, "0")
 }
 
-record(ao, "$(P)$(R)GC_TraQueCurBloCount") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TransferQueueCurrentBlockCount")
-  field(DISA, "0")
-}
-
 record(ai, "$(P)$(R)GC_TraQueOveCount_RBV") {
   field(DTYP, "asynInt64")
   field(INP,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TransferQueueOverflowCount")
   field(SCAN, "I/O Intr")
-  field(DISA, "0")
-}
-
-record(ao, "$(P)$(R)GC_TraQueOveCount") {
-  field(DTYP, "asynInt64")
-  field(OUT,  "@asyn($(PORT),$(ADDR=0),$(TIMEOUT=1))GC_I_TransferQueueOverflowCount")
   field(DISA, "0")
 }
 

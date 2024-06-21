@@ -865,28 +865,12 @@
 			textix="ReadoutTimeAbs"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=470
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ReadoutTimeAbs"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=470
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1195,28 +1179,12 @@
 			textix="ResultingFramePeriodAbs"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=645
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ResFramePeriodAbs"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=645
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1243,28 +1211,12 @@
 			textix="ResultingFrameRateAbs"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=670
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_ResFrameRateAbs"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=670
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1337,26 +1289,12 @@
 			textix="AcquisitionStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=720
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcquisitionStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1513,26 +1451,12 @@
 			textix="LineLogic"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=120
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineLogic"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1935,26 +1859,12 @@
 			textix="LineStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=345
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=345
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1981,28 +1891,12 @@
 			textix="LineStatusAll"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=370
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineStatusAll"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=370
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2655,28 +2549,12 @@
 			textix="SequenceCurrentSet"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=95
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SeqCurrentSet"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=95
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

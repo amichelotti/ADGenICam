@@ -415,26 +415,12 @@
 			textix="FileOperationStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=220
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FilOpeStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=220
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -461,28 +447,12 @@
 			textix="FileOperationResult"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FilOpeResult"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -509,28 +479,12 @@
 			textix="FileSize"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=270
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FileSize"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=270
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1768,28 +1722,12 @@
 			textix="FrameStartEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=265
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FraStaEveStrChaIn"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=265
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1816,28 +1754,12 @@
 			textix="FrameStartEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=290
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FraStaEveTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=290
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1902,28 +1824,12 @@
 			textix="AcquisitionStartEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=350
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcqStaEveStrChaIn"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=350
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1950,28 +1856,12 @@
 			textix="AcquisitionStartEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=375
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcqStaEveTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=375
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2036,28 +1926,12 @@
 			textix="CriticalTemperatureEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=435
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CriTemEveStrChaIn"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=435
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2084,28 +1958,12 @@
 			textix="CriticalTemperatureEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=460
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_CriTemEveTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=460
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2170,28 +2028,12 @@
 			textix="OverTemperatureEventStreamChannelIndex"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=520
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_OveTemEveStrChaIn"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=520
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2218,28 +2060,12 @@
 			textix="OverTemperatureEventTimestamp"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=545
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_OveTemEveTim"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=545
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

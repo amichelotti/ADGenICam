@@ -2273,26 +2273,12 @@
 			textix="UserSetFeatureEnable"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=455
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_UseSetFeaEnable"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=455
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

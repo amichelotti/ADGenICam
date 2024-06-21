@@ -1337,26 +1337,12 @@
 			textix="AcquisitionStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=720
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_AcquisitionStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=720
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1429,28 +1415,12 @@
 			textix="TransmitFrameCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=770
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TraFrameCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=770
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1787,26 +1757,12 @@
 			textix="PixelCoding"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=155
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelCoding"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=155
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2071,28 +2027,12 @@
 			textix="SensorWidth"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=305
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorWidth"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=305
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2119,28 +2059,12 @@
 			textix="SensorHeight"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=330
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SensorHeight"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=330
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2213,28 +2137,12 @@
 			textix="WidthMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=380
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_WidthMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=380
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2261,28 +2169,12 @@
 			textix="HeightMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=405
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_HeightMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=405
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2685,26 +2577,12 @@
 			textix="PixelColorFilter"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=720
-				y=630
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixelColorFilter"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=845
+				x=720
 				y=630
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2731,28 +2609,12 @@
 			textix="PixelDynamicRangeMin"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=655
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixDynRangeMin"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=655
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2779,28 +2641,12 @@
 			textix="PixelDynamicRangeMax"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=680
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_PixDynRangeMax"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=680
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -2957,26 +2803,12 @@
 			textix="pgrDefectPixelCorrectionType"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=70
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_pDefPixCorType"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=70
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3356,28 +3188,12 @@
 			textix="UserSetCurrent"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=305
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_UserSetCurrent"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=305
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3642,28 +3458,12 @@
 			textix="DataFlashPageSize"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=490
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DataFlashPageSize"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=490
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3690,28 +3490,12 @@
 			textix="DataFlashPageCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=1205
-				y=515
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_DatFlashPageCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1270
+				x=1205
 				y=515
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

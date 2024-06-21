@@ -350,26 +350,12 @@
 			textix="LineStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=170
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -396,28 +382,12 @@
 			textix="LineStatusAll"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=195
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineStatusAll"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -584,26 +554,12 @@
 			textix="LineFormat"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_LineFormat"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1134,26 +1090,12 @@
 			textix="FileOperationStatus"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=630
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FilOpeStatus"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=630
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1180,28 +1122,12 @@
 			textix="FileOperationResult"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=655
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FilOpeResult"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=655
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1228,28 +1154,12 @@
 			textix="FileSize"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=680
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_FileSize"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=680
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1454,28 +1364,12 @@
 			textix="TransferQueueMaxBlockCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=145
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TraQueMaxBloCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=145
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1502,28 +1396,12 @@
 			textix="TransferQueueCurrentBlockCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=170
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TraQueCurBloCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=170
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -1550,28 +1428,12 @@
 			textix="TransferQueueOverflowCount"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=720
-				y=195
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_TraQueOveCount"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=785
+				x=720
 				y=195
-				width=120
+				width=240
 				height=18
 			}
 			monitor {

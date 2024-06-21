@@ -258,26 +258,12 @@
 			textix="SequencerConfigurationValid"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=120
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SeqConValid"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=120
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -475,28 +461,12 @@
 			textix="SequencerSetActive"
 			align="horiz. right"
 		}
-    # (Textentry)
-		"text entry" {
-			object {
-				x=235
-				y=245
-				width=60
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SeqSetActive"
-				clr=14
-				bclr=51
-			}
-			limits {
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=300
+				x=235
 				y=245
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -571,26 +541,12 @@
 			textix="SequencerSetValid"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=235
-				y=295
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_SequencerSetValid"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=360
+				x=235
 				y=295
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
@@ -3416,26 +3372,12 @@
 			textix="UserSetFeatureEnable"
 			align="horiz. right"
 		}
-    # (Menu Button)
-		menu {
-			object {
-				x=1205
-				y=665
-				width=120
-				height=20
-			}
-			control {
-				chan="$(P)$(R)GC_UseSetFeaEnable"
-				clr=14
-				bclr=51
-			}
-		}
     # (Textupdate)
 		"text update" {
 			object {
-				x=1330
+				x=1205
 				y=665
-				width=120
+				width=240
 				height=18
 			}
 			monitor {
